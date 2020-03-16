@@ -20,3 +20,11 @@ console.log(null);
 console.log (undefined);
 
 
+//symbol
+
+console.log(Symbol());
+
+//link - ссылочный тип (объект)
+
+console.log({ name: '4ina' , age: 30   });
+
