@@ -24,3 +24,22 @@ console.log(car); // merc /var можно объявить много раз , �
 console.log(car2); //undefined
 var car2 = 'audi'; //всплытие 
 console.log(car2); //
+
+console.clear();
+// console.log (nickname); //нельзя error
+// let nickname = 'wyngys'; //нельзя!! error
+// let nickname = 'wyng'; //нельзя!!! error
+
+// const firstname = 'Tom'; // нельзя
+// firstname = 'Json'// переопределять 
+
+// const firstname2; //нельзя
+// firstname2 = 'Muha' // инициализировать без значения 
+
+
+const user = {      // нельзя переопределить 
+    name: 'Dima',
+    age: 25,
+};
+user.age = 30; // можно изменить значение 
+console.log(user);
