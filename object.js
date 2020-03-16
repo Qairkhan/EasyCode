@@ -10,9 +10,9 @@ const user = {
 };
 
 let value;
-
+let prob = 'skills';
 value=user.firsName;
 
-
+value = user[prob];
 console.log(value);
-console.log(user);
+// console.log(user);
