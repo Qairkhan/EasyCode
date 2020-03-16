@@ -22,4 +22,8 @@ value = parseFloat(value.toFixed(1));
 value = (0.6 * 10 + 0.7 * 10) / 10; // 1.3
 
 value = Math.PI;
-console.log(value);
+
+const arr = ['black' , 'red', 'yellow', 'white', 'pink', 'orange'];
+
+value = Math.floor(Math.random() * arr.length);
+console.log(value, arr[value]);
