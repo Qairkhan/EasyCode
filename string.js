@@ -18,4 +18,8 @@ value = firstName.toUpperCase();
 value = str.indexOf('n') //poisk po stroke
 
 value = str.includes ('my'); //true //poisk po stroke s otvetom boolean
+
+value = str.slice(0, 5); // vyrejet iz stroki (Hello)
+
+value = str.replace('Wyngys' , 'Wyn'); // zamena
 console.log (value);
