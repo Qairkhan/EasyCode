@@ -27,4 +27,5 @@ console.log(Symbol());
 //link - ссылочный тип (объект)
 
 console.log({ name: '4ina' , age: 30   });
+console.log([ 1, 2 , 3, 4  ]);
 
