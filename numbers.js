@@ -21,5 +21,5 @@ value = 0.6 + 0.7; // 1.29999998 (из за работы с памятью и р
 value = parseFloat(value.toFixed(1));
 value = (0.6 * 10 + 0.7 * 10) / 10; // 1.3
 
-
-Console.log(value);
+value = Math.PI;
+console.log(value);
