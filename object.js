@@ -14,5 +14,16 @@ let prob = 'skills';
 value=user.firsName;
 
 value = user[prob];
-console.log(value);
+
+
+user.firsName = 'Wyn';
+value = user.firsName;
+
+user.info = 'Soma info';
+
+value=user.info // dobavili svoistvo
+
+user.plan.basic = 'Basic'; //owibka budet // nel'zya dobavit vlojnostivlojnost
+
 // console.log(user);
+console.log(value);
