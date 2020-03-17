@@ -48,13 +48,24 @@ let value;
 
 // || &&
 
-value = 0 || 0 || 2;
+// value = 0 || 0 || 2;
 
-console.log (value);
+// console.log (value);
 
-let age = 10; 
-if (age < 16 || age > 65) {
-    console.log ('dadada');
+// let age = 10; 
+// if (age < 16 || age > 65) {
+//     console.log ('dadada');
+// } else {
+//     console.log ('else');
+// }
+
+value = 10;
+if (value < 10) {
+    console.log ('value < 10', value);
+
+} else if (value >= 10) {
+    console.log ('value >=10' , value);
+
 } else {
-    console.log ('else');
+    console.log('else');
 }
