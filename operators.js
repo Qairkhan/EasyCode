@@ -15,3 +15,9 @@ value = 'a' > 'ab';
 
 
 console.log(value);
+
+if (uslovie) {
+    //action
+} else {
+        //else action
+}
