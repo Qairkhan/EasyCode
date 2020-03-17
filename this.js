@@ -1,5 +1,5 @@
-function getThis() {
-  console.log(this);
-}
+// function getThis() {
+//   console.log(this);
+// }
 
-getThis();
+// getThis();
