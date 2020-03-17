@@ -38,10 +38,23 @@ let value;
 //     console.log('else', value);
 // }
 
-value = [];
+// value = [];
 
-if (value.length) {
-    console.log (value);
+// if (value.length) {
+//     console.log (value);
+// } else {
+//     console.log ('array is empty');
+// }
+
+// || &&
+
+value = 0 || 0 || 2;
+
+console.log (value);
+
+let age = 10; 
+if (age < 16 || age > 65) {
+    console.log ('dadada');
 } else {
-    console.log ('array is empty');
+    console.log ('else');
 }
