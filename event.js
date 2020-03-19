@@ -8,7 +8,9 @@ const link = document.querySelector("a");
 //   console.log(e);
 // });
 
-link.addEventListener("click", function(e) {
+function clickhandler(e) {
   e.preventDefault();
   console.log("click");
-});
+}
+
+link.addEventListener("click", clickhandler);
