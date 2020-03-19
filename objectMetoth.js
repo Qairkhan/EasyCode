@@ -2,5 +2,9 @@ let obj = {
   name: "Wyngys"
 };
 
-let newObj = Object.assign({}, obj0);
-console.log(newObj === obj);
+let obj2 = {
+  age: 20
+};
+
+let newObj = Object.assign({}, obj, obj2);
+console.log(newObj);
