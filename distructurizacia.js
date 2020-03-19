@@ -4,6 +4,13 @@ const = user = {
 };
 
 
-const {firstName, lastName, age = 30 } = user;
+const {firstName: name, lastName, age = 30 } = user; //для высоза firstName пишется name
 
-console.log(age);
+console.log(name);
+
+
+const colors = ['white', 'black', 'red'];
+
+const [w, b, red ] = colors;
+
+console.log (colors);
