@@ -4,4 +4,9 @@ const promise = new Promise((resolve, reject) => {
 
 console.log(promise);
 
-promise.then(x => console.log(x));
+promise
+  .then(x => {
+    console.log(x);
+    return x;
+  })
+  .then(y => console.log(y));
