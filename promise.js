@@ -10,5 +10,7 @@ promise
     console.log(x);
     return x;
   })
+
   .then(y => console.log(y));
   .catch(err => console.log(err));
+  
