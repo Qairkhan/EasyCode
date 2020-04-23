@@ -10,7 +10,7 @@ btn.addEventListener("click", function(event) {
 
 function clickhandler(e) {
   e.preventDefault();
-  console.log("clicks");
+  console.log("click");
 }
 
 link.addEventListener("click", clickhandler);
