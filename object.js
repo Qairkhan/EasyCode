@@ -6,7 +6,7 @@ const user = {
     'user-addres': {
         city: 'Minsk'
     },
-    skills: ['html', 'css', 'js', 'nodeJS']
+    skills: ['html', 'css', 'js', 'nodeJS', 'ReactJS']
 };
 
 let value;
