@@ -14,4 +14,4 @@ function foo(x) {
   return x;
 }
 foo();
-console.log(x);
+console.log('x',x);
