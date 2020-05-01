@@ -21,4 +21,4 @@ for (let i = 0; i < str.length; i++) {
 
 }
 
-console.log(res)
+console.log("res",res)
