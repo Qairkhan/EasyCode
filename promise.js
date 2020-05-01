@@ -11,6 +11,6 @@ promise
     return x;
   })
 
-  .then(y => console.log(y)),
+  .then(y => console.log(y));
   .catch(err => console.log(err));
   
