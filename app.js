@@ -9,7 +9,7 @@ console.log('hello', "hello", `hello`) //три варианта написал�
 
 //boolean
 
-console.log(true, false);
+console.log("test",true, false);
 
 //null - значение не известно
 
