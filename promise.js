@@ -7,7 +7,7 @@ console.log(promise);
 
 promise
   .then(x => {
-    console.log(x);
+    console.log('x',x);
     return x;
   })
 
