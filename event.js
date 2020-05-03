@@ -10,7 +10,7 @@ const link = document.querySelector("a");
 
 function clickhandler(e) {
   e.preventDefault();
-  console.log("click");
+  console.log("clicks");
 }
 
 link.addEventListener("click", clickhandler);
