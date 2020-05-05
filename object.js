@@ -16,7 +16,7 @@ value=user.firsName;
 value = user[prob];
 
 
-user.firsName = 'Wyn';
+user.firsName = 'Shynggys';
 value = user.firsName;
 
 user.info = 'Soma info';
