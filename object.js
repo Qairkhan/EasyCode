@@ -19,7 +19,7 @@ value = user[prob];
 user.firsName = 'Shynggys';
 value = user.firsName;
 
-user.info = 'Soma info';
+user.info = 'same info';
 
 value=user.info // dobavili svoistvo
 
