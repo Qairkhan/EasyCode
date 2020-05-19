@@ -1,5 +1,5 @@
 const promise = new Promise((resolve, reject) => {
-  // setTimeout(() => resolve(Math.random()), 10000);
+  setTimeout(() => resolve(Math.random()), 10000);
   setTimeout(() => reject('error'), 10000);
 });
 
