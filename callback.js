@@ -31,13 +31,13 @@ function mapArray(arr, fn) {
   return res;
 }
 
-function nameLength(el) {
-  console.log(el);
-  return el;
+function nameLength(elem) {
+  console.log(elem);
+  return elem;
 }
 
-function nameToUpperCase(el) {
-  return el.toUpperCase();
+function nameToUpperCase(elelem) {
+  return elelem.toUpperCase();
 }
 
 const result = mapArray(names, nameLength);
