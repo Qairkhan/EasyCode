@@ -1,5 +1,5 @@
 // типы данных
-console.log(45.4, 2, 6); //Number 
+console.log(45.4, 56, 6); //Number 
 console.log(45 * "asdasd"); //Number NAN
 console.log(1 / 0); //infinity
 
