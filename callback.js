@@ -1,8 +1,8 @@
-// function foo() {
-//   console.log("Hello world");
-// }
+ function foo() {
+   console.log("Hello world");
+}
 
-// foo();
+ foo();
 
 // foo.field = "Wyngys";
 // console.log(foo.field);
