@@ -4,8 +4,8 @@ const link = document.querySelector("a");
 //   console.log("click");
 // };
 
-btn.addEventListener("click", function(e) {
-  console.log(e);
+btn.addEventListener("click", function(event) {
+  console.log(event);
 });
 
 function clickhandler(e) {
